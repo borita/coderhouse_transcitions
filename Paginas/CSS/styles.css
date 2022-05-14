@@ -39,7 +39,7 @@ header {
   align-items: center;
 }
 /* agregando transformaciones y transiciones mediante hover */
-ul.header__navigation li:hover {
+ .header__navigation ul li:hover {
 
   color: blue;
   

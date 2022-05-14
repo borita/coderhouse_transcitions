@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../CSS/styles.css" rel="stylesheet" type="text/css" />
+    <title>Draws</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="encal">
+        <a href="../index.html"
+          ><img class="header__logo" src="../recursos/padron.png" alt="logo"
+        /></a>
+      </div>
+
+      <div class="header__titulo">
+        <h1>RICHARD SALINAS MEMORIAL</h1>
+        <h2>tennis tournament</h2>
+      </div>
+
+      <nav>
+        <ul class="header__navigation">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li><a href="players.html">Players</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="draws.html">Draws</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Draws</legend>
+            <div>
+              <label>
+                Freshman
+                <input type="radio" name="category" value="Freshman" />
+              </label>
+              <label>
+                Junior Varsity
+                <input type="radio" name="category" value="Junior Varsity" />
+              </label>
+              <label>
+                Varsity
+                <input checked type="radio" name="category" value="Varsity" />
+              </label>
+            </div>
+          </fieldset>
+        </form>
+        <div class="section__mainDraw">
+          <div class="section__firstRound">
+            <div>
+              <img src="../recursos/draws.png" alt="draws" />
+            </div>
+            <div>
+              <img src="../recursos/draws.png" alt="draws" />
+            </div>
+          </div>
+          <!--
+          <div class="section__secondRound">
+            <div>
+              <img src="../recursos/draws.png" alt="draws" />
+            </div>
+          </div>
+          -->
+        </div>
+      </section>
+    </main>
+    <footer class="footer__copyright">
+      <div>
+        <p>Copyright All Rights Reserverd</p>
+      </div>
+    </footer>
+  </body>
+</html>

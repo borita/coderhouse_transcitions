@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <LINK href="../CSS/styles.css" rel="stylesheet" type="text/css">
+  <title>Registration</title>
+  </head>
+  <body>
+    <header>
+        <div>
+            <a href="../index.html"><img  class="header__logo" src="../recursos/padron.png" alt="logo"></a>
+        </div>
+        
+        <div class="header__titulo">
+            <h1>RICHARD SALINAS MEMORIAL</h1>
+            <h2>tennis tournament</h2>
+        </div>
+        <nav>
+          <ul class="header__navigation">
+            <li> <a href="../index.html">Home</a></li>
+            <li> <a href="registration.html">Registration</a></li>
+            <li> <a href="players.html">Players</a></li>
+            <li> <a href="events.html">Events</a></li>
+            <li> <a href="draws.html">Draws</a></li>  
+          </ul>
+        </nav> 
+    </header>    
+    <main>
+        <section>
+           <form class="main__form">
+              <fieldset>
+                 <legend>Registration</legend>
+                   <div> 
+                       <label>Name
+                           <input type="text" name="name" />
+                       </label>
+                   </div>
+                   <div> 
+                       <label> Last Name
+                           <input type="text" name="lastname" />
+                       </label>
+                   </div>
+                   <div> 
+                       <label> dob
+                            <input type="date" name="dob" />
+                        </label>
+                   </div>
+                   <div> 
+                       <label> Phone Number
+                           <input type="tel" name="phone" placeholder="123-45-678" />
+                       </label>
+                   </div>
+                   <div>
+                       <label> email
+                           <input type="email" name="email" placeholder="caracteres@gmail.com" />
+                       </label>
+                   </div>
+                   <div>
+                    <label> Female
+                       <input type="radio" name = "sex" value="Female"/> 
+                       </label>
+                       <label> Male
+                       <input type="radio" name = "sex" value="Male"/> 
+                    </label>
+                </div>  
+                   <div>
+                       <label> city
+                           <input type="text" City="city" />
+                      </label>
+                   </div>
+                   <div>
+                       <label> State
+                           <input type="text" state="state" />
+                       </label>
+                   </div>
+               </fieldset>
+               <fieldset>
+                  <legend>Events</legend>
+                    <div>
+                       <label> Freshman
+                           <input type="radio" name = "category" value="Freshman"/> 
+                       </label>
+                       <label> Junior Varsity
+                           <input type="radio" name = "category" value="Junior Varsity"/> 
+                       </label>
+                       <label> Varsity
+                           <input type="radio" name = "category" value="Varsity"/> 
+                       </label>
+                    </div>  
+                    <div>
+                       <label> Singles
+                           <input type=checkbox name="event" value="Singles"/>
+                       </label> 
+                    </div> 
+                    <div>
+                       <label> Doubles
+                           <input type=checkbox name="event" value="Doubles"/>
+                       </label> 
+                    </div> 
+                    <div> 
+                       <label>Partner
+                           <input type="text" name="partner" />
+                       </label>
+                   </div>
+                   <div>
+                       <input type="submit" value="Submit"></input/>
+                   </div>
+               </fieldset>
+           </form>
+       </section>
+    </main>
+    <footer class="footer_copyright">
+        <div>
+            <p>Copyright All Rights Reserverd</p>
+        </div>
+    </footer>
+  </body>
+</html>

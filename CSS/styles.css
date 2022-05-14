@@ -46,6 +46,17 @@ ul.header__navigation li {
   padding: 10px;
   font-size: 20px;
 }
+ul.header__navigation li:hover {
+
+  color: blue;
+  
+  transition: all,1s;
+  
+  transform:scale(1.1);
+  
+  background-color: rgb(184, 209, 201);
+  
+  }
 /* depurando el menu sin la linea */
 a {
   text-decoration: none;

@@ -129,8 +129,8 @@ ul.main__players li {
   }
 
   .header__logo {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     height: 50px;
     width: 140px;
   }
@@ -141,6 +141,7 @@ ul.main__players li {
     align-items: right;
     flex-wrap: wrap;
     color: blue;
+    font-size: 10px;
   }
 
   .main__information {
@@ -157,7 +158,7 @@ ul.main__players li {
     border-radius: 5px;
   }
   fieldset {
-    width: 500px;
+    width: 350px;
   }
 }
 
@@ -219,6 +220,6 @@ ul.main__players li {
     padding: 15px;
   }
   fieldset {
-    width: 400px;
+    width: 350px;
   }
 }

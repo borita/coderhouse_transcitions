@@ -112,7 +112,26 @@ ul.main__players li {
   height: 300px;
   width: 300px;
 }
-
+/*
+.rectangulo{
+  margin:auto 20px;
+  border-top: solid 1px #000;
+  border-bottom:solid #000 1px;
+  border-right: solid 1px #000;
+  width: 25%;
+  margin: 15px;
+}
+.h-line{
+  margin:auto 20px;
+  border-top: solid 1px #000;
+ }
+ .draws{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+*/
 /* TABLET */
 /* se redefiniran las secciones para que se adapten a diseno responsivo en tablet*/
 @media (min-width: 541px) and (max-width: 720px) {
@@ -157,11 +176,41 @@ ul.main__players li {
     padding: 10px;
     border-radius: 5px;
   }
+  ul.header__navigation li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 15px;
+  }
   fieldset {
-    width: 350px;
+    width: 500px;
+    height: 220px;
   }
 }
 
+/*
+.rectangulo{
+  margin:auto 20px;
+  border-top: solid 1px #000;
+  border-bottom:solid #000 1px;
+  border-right: solid 1px #000;
+  width: 60%;
+  margin: 15px;
+
+}
+.h-line{
+  margin:auto 20px;
+  border-top: solid 1px #000;
+ }
+ .draws{
+   display:flex;
+   flex-direction: column;
+   flex-wrap:wrap;
+   justify-content: center;
+   align-items: center;
+ }
+ */
 /* CELULAR */
 /* se redefiniran las secciones para que se adapten a diseno responsivo en mobiles*/
 @media (min-width: 320px) and (max-width: 540px) {
@@ -220,6 +269,28 @@ ul.main__players li {
     padding: 15px;
   }
   fieldset {
-    width: 350px;
+    width: 400px;
+    height: 220px;
   }
+  /*
+  .rectangulo{
+    margin:auto 20px;
+    border-top: solid 1px #000;
+    border-bottom:solid #000 1px;
+    border-right: solid 1px #000;
+    width: 60%;
+    margin: 15px;
+  
+  }
+  .h-line{
+    margin:auto 20px;
+    border-top: solid 1px #000;
+   }
+   .draws{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  */
 }
